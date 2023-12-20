@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutomobileInformation version="1.0">
+    <car>
+        <model type="sedan" brand="Toyota" year="2023">
+            <color>Blue</color>
+            <engine type="V6">
+                <horsepower>300</horsepower>
+                <fuelType>Petrol</fuelType>
+            </engine>
+            <transmission>Automatic</transmission>
+        </model>
+        <model type="SUV" brand="Ford" year="2022">
+            <color>Red</color>
+            <engine type="V8">
+                <horsepower>350</horsepower>
+                <fuelType>Diesel</fuelType>
+            </engine>
+            <transmission>Manual</transmission>
+        </model>
+    </car>
+    <motorcycle>
+        <model brand="Harley-Davidson" year="2023">
+            <color>Black</color>
+            <engine type="V-Twin">
+                <horsepower>120</horsepower>
+                <fuelType>Gasoline</fuelType>
+            </engine>
+            <transmission>Manual</transmission>
+        </model>
+        <model brand="Honda" year="2022">
+            <color>White</color>
+            <engine type="Inline-4">
+                <horsepower>150</horsepower>
+                <fuelType>Gasoline</fuelType>
+            </engine>
+            <transmission>Automatic</transmission>
+        </model>
+    </motorcycle>
+</AutomobileInformation>

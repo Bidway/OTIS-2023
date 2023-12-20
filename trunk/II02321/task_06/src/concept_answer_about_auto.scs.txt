@@ -1,0 +1,40 @@
+concept_car_information
+  <- sc_node_class;
+  => nrel_main_idtf:
+    [Информация о автомобиле]
+    (* <- lang_ru;; *);
+    [Car Information]
+    (* <- lang_en;; *);
+
+  <- rrel_key_sc_element:
+    ...;
+
+  (*
+  => nrel_main_idtf:
+    [Опр. (Информация об автомобиле)]
+    (* <- lang_ru;; *);
+    [Def. (Car Information)]
+    (* <- lang_en;; *);;
+  <- definition;;
+
+  <= nrel_sc_text_translation:
+    ...;
+
+  (*
+  -> rrel_example:
+    [Ответ на вопрос об автомобилях]
+    (* <- lang_ru;; *);;
+  *);
+  ...
+
+  (*
+  -> rrel_example:
+    [Answer for question about cars]
+    (* <- lang_en;; *);;
+  *);;
+
+  <= nrel_using_constants:
+    {
+      concept_phrase
+    };;
+  *);
